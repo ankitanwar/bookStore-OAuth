@@ -1,0 +1,4 @@
+github.com/ankitanwar/GoAPIUtils v0.0.0-20201123063003-13bf6c19c388 h1:TNJt26JBSaygARDADdtJVyyTrA4B+CnNxDv3mTo0Vv4=
+github.com/ankitanwar/GoAPIUtils v0.0.0-20201123063003-13bf6c19c388/go.mod h1:F1NGfB4+f2Jz9mIME5yYlaGBY5P72sQof0BhmlhZYM8=
+github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0 h1:EDOjA2IGgjSBlPlnW7CzBUo/o410SMiFh670jP29Kc4=
+github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0/go.mod h1:Z7qYja4aGk/RWl1yJtN1LXRvC7Hsbq8SEbqWWDrMqMs=
