@@ -43,11 +43,11 @@ func IsPublic(request *http.Request) bool {
 }
 
 //GetCallerID : To get the caller id from the url
-func GetCallerID(request *http.Request) int64 {
+func GetCallerID(request *http.Request) int {
 	if request == nil {
 		return 0
 	}
-	callerID, err := strconv.ParseInt(request.Header.Get(headerXCallerID), 10, 64)
+	callerID, err := strconv.Atoi(request.Header.Get(headerXCallerID))
 	if err != nil {
 		return 0
 	}
@@ -55,11 +55,11 @@ func GetCallerID(request *http.Request) int64 {
 }
 
 //GetClientID : To get the client id
-func GetClientID(request *http.Request) int64 {
+func GetClientID(request *http.Request) int {
 	if request == nil {
 		return 0
 	}
-	clientID, err := strconv.ParseInt(request.Header.Get(headerXClientID), 10, 64)
+	clientID, err := strconv.Atoi(request.Header.Get(headerXClientID))
 	if err != nil {
 		return 0
 	}
